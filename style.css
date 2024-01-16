@@ -1,12 +1,56 @@
 body {
-    background: cornflowerblue
+    background: rgb(78, 204, 172)
 }
 .game-boy{
     width: 250px;
     height: 350px;
-    background-color: rgb(167,223,145);
+    background-color: rgb(238, 53, 213);
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    border-radius:3%;
+    border-bottom-right-radius: 50px;
+    box-shadow:3px 5px 5px rgba(0,0,0,0.4);
+}
+.screen-border{
+    width:80%;
+    height:50%;
+    background-color: rgb(110,110,110);
+    position: absolute;
+    top:30px;
+    left:25px;
+    border-radius:5%;
+    border-bottom-right-radius: 50px;
+}
+.line-red{
+    width:90%;
+    height:2px;
+    background-color: rgb(172, 52, 52);
+    margin: 0 auto;
+    margin-top:8px;   
+}
+.screen{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(170,170,170);
+    position: absolute;
+    top:10%;
+    left:20%;
+}
+.power{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 30, 30);
+    position: absolute;
+    top:45px;
+    left:7%;
+}
+.logo{
+    position:absolute;
+    top:60%;
+    left:13%;
+    width: 100%;
+    color: rgb(65,65,65);
 }
