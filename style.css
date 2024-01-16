@@ -54,3 +54,49 @@ body {
     width: 100%;
     color: rgb(65,65,65);
 }
+.nintendo{
+    float: left;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 26px;
+}
+.gb{
+    float:left;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+.d-pad{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(238, 53, 213);
+    position:relative;
+    top: 70%;
+    left: 10%;
+    border-radius: 50px;    
+}
+.d-y{
+    width: 13px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.d-x{
+    width: 35px;
+    height: 13px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.buttons{
+    width:30px;
+    height: 70px;
+    background-color: rgb(91,134,74,0,79);
+}
