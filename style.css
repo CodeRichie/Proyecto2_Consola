@@ -1,6 +1,6 @@
 body {
-    background-image: url("/img/fondo.jpg");
-    background-size:cover;
+    background: url("/img/fondo.jpg");
+    background-size: cover;
 }
 .game-boy{
     width: 250px;
@@ -24,6 +24,7 @@ body {
     left:25px;
     border-radius:5%;
 
+
 }
 .line-red{
     width:90%;
@@ -33,13 +34,20 @@ body {
     margin-top:8px;   
 }
 .screen{
+    background-size: contain;
     width: 65%;
-    height: 80%;
+    height: 64%;
     background-color: rgb(170,170,170);
     position: absolute;
-    top:10%;
+    top:21%;
     left:20%;
+
 }
+.gif{
+    background: url('./img/opening.gif') no-repeat center;
+    background-size: contain;
+}
+
 .power{
     width: 10px;
     height: 10px;
