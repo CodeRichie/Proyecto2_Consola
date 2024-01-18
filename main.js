@@ -1,10 +1,14 @@
 var images = ['./img/opening.gif','./img/Azul.jpg','./img/Rojo.jpg','./img/verde.jpg']
 var imagePosition = 0
 var screen = document.querySelector(".screen img");
+var sonido =new Audio();
+sonido.src="./music/gb-start.mp3"
+
 function switchOnOff() {
     imagePosition = 0
   screen.classList.toggle('hidden')
   screen.src= images[imagePosition]
+  sonido.play();
 };
 
 
@@ -31,5 +35,6 @@ function reset() {
   screen.src= images[imagePosition]
  
 };
+
 
 
