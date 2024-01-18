@@ -43,9 +43,17 @@ body {
     left:20%;
 
 }
+.screen img{
+    width: 100%;
+    height: 100%;
+}
+
 .gif{
     background: url('./img/opening.gif') no-repeat center;
     background-size: contain;
+}
+.hidden{
+    display: none;
 }
 
 .power{
